@@ -1,0 +1,135 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    margin: auto;
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    max-height: 69px;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    z-index: 10;
+}
+
+header img {
+    margin-left: 10px;
+    height: 50px;
+}
+
+header nav {
+    margin-right: 10px;
+}
+
+header nav ul {
+    display: inline-flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+}
+
+header li a {
+    color: seashell;
+}
+
+main {
+    position: relative;
+    top: 69px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.9;
+}
+
+#mission {
+    background-image: url("../images/img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mission div {
+    background-color: black;
+    width: 100%;
+}
+
+#featured-tea {
+    width: 1000px;
+    text-align: center;
+}
+
+#featured-tea .box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#featured-tea img{
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+
+}
+
+#featured-tea .box p {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+#locations {
+    background-image: url("../images/img-locations-background.jpg");
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#locations .box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.location {
+    background-color: black;
+    width: 300px;
+    opacity: 1;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.location:last-child {
+    margin-right: 0;
+}
+
+#locations h2 {
+    margin-bottom: 15px;
+}
+
+footer {
+    position: relative;
+    top: 69px;
+    font-weight: bold;
+}
+
+footer .box {
+    height: 200px;
+}
+
+.copyright {
+    margin-left: 20px;
+    text-align: start;
+}
